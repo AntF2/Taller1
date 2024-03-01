@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+
+    <title>Skate cumandá</title>
+    
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="assets/css/fontawesome.css">
+    <link rel="stylesheet" href="assets/css/templatemo-grad-school.css">
+    <link rel="stylesheet" href="assets/css/owl.css">
+    <link rel="stylesheet" href="assets/css/lightbox.css">
+<!--
+    
+TemplateMo 557 Grad School
+
+https://templatemo.com/tm-557-grad-school
+
+-->
+  </head>
+
+<body>
+
+   
+  <!--header-->
+  <header class="main-header clearfix" role="header">
+    <div class="logo">
+      <a href="index.html"><img src="data:image/png;base64,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" width="65"><em>Strucktural</em> Cumandá</a>
+    </div>
+    <a href="#menu" class="menu-link"><i class="fa fa-bars"></i></a>
+    <nav id="menu" class="main-nav" role="navigation">
+      <ul class="main-menu">
+        <li><a href="#section1">Inicio</a></li>
+        <li><a href="#section2">Nosotros</a></li>
+        <li><a href="#section4">Horario</a></li>
+        <li><a href="#section5">Grabateste</a></li>
+        <li><a href="#section6">Contactos</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="section main-banner" id="top" data-section="section1">
+      <video autoplay muted loop id="bg-video">
+          <source src="assets/images/skate_j8NjAVqI.mp4" type="video/mp4" />
+      </video>
+
+      <div class="video-overlay header-text">
+          <div class="caption">
+              <h6>Somos una escuela de skate comprometida con tu aprendizaje y diversión. Ofrecemos clases para todos los niveles, desde principiantes hasta avanzados.</h6>
+              <h2><em>¡Únete</em> ya!</h2>
+              <div class="main-button">
+                  <div class="scroll-to-section"><a href="#section2">Saber más</a></div>
+              </div>
+          </div>
+      </div>
+  </section>
+
+
+  <section class="features">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4 col-12">
+          <div class="features-post">
+            <div class="features-content">
+              <div class="content-show">
+                <h4><i class="fa fa-pencil"></i>Quiénes somos</h4>
+              </div>
+              <div class="content-hide">
+                <p>En la Escuela de Skate Cumandá, nos apasiona el mundo del skateboarding y estamos comprometidos a compartir esa pasión con nuestros estudiantes. </p>
+                <p class="hidden-sm">Curabitur id eros vehicula, tincidunt libero eu, lobortis mi. In mollis eros a posuere imperdiet.</p>
+                <div class="scroll-to-section"><a href="#section2">Más información.</a></div>
+            </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-12">
+          <div class="features-post second-features">
+            <div class="features-content">
+              <div class="content-show">
+                <h4><i class="fa fa-graduation-cap"></i>Horarios</h4>
+              </div>
+              <div class="content-hide">
+                <p>Nuestros horarios son flexibles puedes consultar más dando click en detalles.</p>
+                <p class="hidden-sm">Curabitur id eros vehicula, tincidunt libero eu, lobortis mi. In mollis eros a posuere imperdiet.</p>
+                <div class="scroll-to-section"><a href="#section3">Detalles</a></div>
+            </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-12">
+          <div class="features-post third-features">
+            <div class="features-content">
+              <div class="content-show">
+                <h4><i class="fa fa-book"></i>Beneficios de aprender</h4>
+              </div>
+              <div class="content-hide">
+                <p>Aprender skateboarding va más allá de simplemente dominar trucos sobre una tabla. </p>
+                <p class="hidden-sm">Curabitur id eros vehicula, tincidunt libero eu, lobortis mi. In mollis eros a posuere imperdiet.</p>
+                <div class="scroll-to-section"><a href="#section4">Read More</a></div>
+            </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section why-us" data-section="section2">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="section-heading">
+            <h2>Quiénes somos?</h2>
+          </div>
+        </div>
+        <div class="col-md-12">
+          <div id='tabs'>
+            <ul>
+              <li><a href='#tabs-1'>Quiénes somos?</a></li>
+              <li><a href='#tabs-2'>Visión</a></li>
+              <li><a href='#tabs-3'>Misión</a></li>
+            </ul>
+            <section class='tabs-content'>
+              <article id='tabs-1'>
+                <div class="row">
+                  <div class="col-md-6">
+                    <img src="https://scontent.fuio5-1.fna.fbcdn.net/v/t39.30808-6/402869014_650689877228310_6041571402292240943_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=3635dc&_nc_eui2=AeEA4WSuxsViO93qZpg-1TXahx8_SapbwL6HHz9JqlvAviexi46w9HcCIBOkYzf6q8-Dzb5oivykT5cbQwupVxWu&_nc_ohc=ihkRM-FUOzQAX8llcuF&_nc_ht=scontent.fuio5-1.fna&oh=00_AfBqHp7ioTe5bOpE9AnBu1LhVziEoGz0va4xhMYhMXmZ0A&oe=65E6A094" alt="">
+                  </div>
+                  <div class="col-md-6">
+                    <h4>Quiénes somos?</h4>
+                    <p>En la Escuela de Skate Cumandá, nos apasiona el mundo del skateboarding y estamos comprometidos a compartir esa pasión con nuestros estudiantes. Con una amplia experiencia en la enseñanza de este deporte, nuestro equipo de instructores altamente calificados está dedicado a proporcionar clases interactivas y personalizadas que fomenten el crecimiento y la diversión en cada sesión. Ya sea que estés dando tus primeros pasos en una tabla o buscando perfeccionar tus habilidades, estamos aquí para ayudarte a alcanzar tus objetivos y disfrutar del viaje sobre ruedas.</p>
+                  </div>
+                </div>
+              </article>
+              <article id='tabs-2'>
+                <div class="row">
+                  <div class="col-md-6">
+                    <img src="https://quitocultura.com/wp-content/uploads/2022/08/WhatsApp-Image-2022-08-23-at-10.49.26-AM-1-1.jpeg" alt="">
+                  </div>
+                  <div class="col-md-6">
+                    <h4>Visión</h4>
+                    <p>Ser referentes nacionales e interacionales en la enseñanza de skateboarding y promoción de derechos humanos.</p> 
+                    <p>Suspendisse tincidunt, magna ut finibus rutrum, libero dolor euismod odio, nec interdum quam felis non ante.</p>
+                  </div>
+                </div>
+              </article>
+              <article id='tabs-3'>
+                <div class="row">
+                  <div class="col-md-6">
+                    <img src="https://media.gettyimages.com/id/1239752107/es/foto/youngsters-practice-during-a-class-of-a-community-skateboarding-school-project-born-eight.jpg?s=612x612&w=gi&k=20&c=84rc8S2D_6m3wEWVSQA1GYTt_2pKceEyp9dYTqEjTKo=" alt="">
+                  </div>
+                  <div class="col-md-6">
+                    <h4>Misión</h4>
+                    <p>Defender a través de prácticas sostenibles derechos y políticas culturales en el ejercicio del skateboarding.</p>
+                  </div>
+                </div>
+              </article>
+            </section>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section coming-soon" data-section="section3">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-7 col-xs-12">
+          <div class="continer centerIt">
+            <div>
+              <h4>Únete <em>al dia del skate</em> que se realiza en: </h4>
+              <div class="counter">
+
+                <div class="days">
+                  <div class="value">00</div>
+                  <span>Days</span>
+                </div>
+
+                <div class="hours">
+                  <div class="value">00</div>
+                  <span>Hours</span>
+                </div>
+
+                <div class="minutes">
+                  <div class="value">00</div>
+                  <span>Minutes</span>
+                </div>
+
+                <div class="seconds">
+                  <div class="value">00</div>
+                  <span>Seconds</span>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+  </section>
+
+  <section class="section courses" data-section="section4">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="section-heading">
+            <h2>Escoje tu horario</h2>
+          </div>
+        </div>
+        <div class="owl-carousel owl-theme">
+          <div class="item">
+            <img src="https://media.gettyimages.com/id/1239751990/es/foto/a-youngster-practices-during-a-class-of-a-community-skateboarding-school-project-born-eight.jpg?s=612x612&w=gi&k=20&c=FrIuNUQZjb1hrEDfE41Ja3spT2GVB5KvEuyLULGQTM0="  width="50">
+            <div class="down-content">
+              <h4>Lunes a viernes 10:00 - 12:00 a.m.</h4>
+              <p>Escojimos este horario para los estudiantes que tengan actividades por hacer en la tarde</p>
+              <div class="author-image">
+                <img src="assets/images/author-01.png" alt="Author 1">
+              </div>
+              <div class="text-button-pay">
+                <a href="#">Pay <i class="fa fa-angle-double-right"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <img src="https://cumandacotidiano.files.wordpress.com/2022/12/cumanda-002.jpeg?w=683" alt="Course #2">
+            <div class="down-content">
+              <h4>Lunes a Viernes 03:00 - 05:00 p.m.</h4>
+              <p>Este horario es para las personas que tengan tiempo libre en la tarde.</p>
+              <div class="author-image">
+                <img src="assets/images/author-02.png" alt="Author 2">
+              </div>
+              <div class="text-button-free">
+                <a href="#">Free <i class="fa fa-angle-double-right"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <img src="data:image/jpeg;base64,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" alt="Course #3">
+            <div class="down-content">
+              <h4>Sábados 10:00 - 12:00 p.m.</h4>
+              <p>Para personas que tengan tiempo libre los días sábados.</p>
+              <div class="author-image">
+                <img src="assets/images/author-03.png" alt="Author 3">
+              </div>
+              <div class="text-button-pay">
+                <a href="#">Pay <i class="fa fa-angle-double-right"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <img src="https://img.youtube.com/vi/TQOdFttZVQE/0.jpg" alt="Course #4">
+            <div class="down-content">
+              <h4>Sábados 02:30 - 05:30 p.m.</h4>
+              <p>Horario para los integrantes que sean parte de la comunidad de cumandá</p>
+              <div class="author-image">
+                <img src="assets/images/author-04.png" alt="Author 4">
+              </div>
+              <div class="text-button-free">
+                <a href="#">Free <i class="fa fa-angle-double-right"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <img src="https://imagenes.expreso.ec/files/og_thumbnail/uploads/2021/06/21/60d115a855abb.jpeg" alt="">
+            <div class="down-content">
+              <h4>Salidas a otros skateparks 08:00 a.m. - 05:00 p.m. </h4>
+              <p>Para personas que les interesen realizar este deporte en otros parques.</p>
+              <div class="author-image">
+                <img src="assets/images/author-05.png" alt="">
+              </div>
+              <div class="text-button-pay">
+                <a href="#">Pay <i class="fa fa-angle-double-right"></i></a>
+              </div>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+  </section>
+  
+
+  <section class="section video" data-section="section5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 align-self-center">
+          <div class="left-content">
+            <span>Videos</span>
+            <h4>Mira este video <em>acerca de otras escuelas</em></h4>
+            <p>Llegamos a #Quito y el plan inicial era hacer un #Jam en el #parque La #Carolina para celebrar los #23patinando de nuestro amigo David Holguin, pero el clima no nos favorecía, así que tocó plan b y fuimos a parar al THE ROCK skatechurch donde pudimos armar una session #espontanea, con mucho #skate, muchos #trucos y buenos #amigos que no veíamos hace mucho!.
+            <br><br>Suspendisse tincidunt, magna ut finibus rutrum, libero dolor euismod odio, nec interdum quam felis non ante.</p>
+            <div class="main-button"><a rel="nofollow" href="https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.instagram.com%2Fgrabateste%2F%3Fhl%3Des%26fbclid%3DIwAR3TtygzgoZ7-2zRQEu96nVVyxypLf9f3m-rFYrbxLYGIAGOIPBqViK-zQo&h=AT3dmMA-8GaLDBOAwMdVwo4XGjqxJu6JvAmvUrETKmkNsUx53Rl1zYr590be-iU_PZywAVts1yhUX39_UT-GI4aRxIguhEzs2XdTGjuY9AtfIft4senRlbfXVBEfAxfwohh_kA" target="_parent">Página web</a></div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <article class="video-item">
+            <div class="video-caption">
+              <h4>Grabateste</h4>
+            </div>
+            <figure>
+              <a href="https://www.youtube.com/watch?v=ERJeIwdi_M4" class="play"><img src="https://i.ytimg.com/vi/ERJeIwdi_M4/maxresdefault.jpg"></a>
+            </figure>
+          </article>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section contact" data-section="section6">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="section-heading">
+            <h2>Visítanos</h2>
+          </div>
+        </div>
+        <div class="col-md-6">
+        
+                	
+                    
+          <form id="contact" action="" method="post">
+            <div class="row">
+              <div class="col-md-6">
+                  <fieldset>
+                    <input name="name" type="text" class="form-control" id="name" placeholder="Tu nombre" required="">
+                  </fieldset>
+                </div>
+                <div class="col-md-6">
+                  <fieldset>
+                    <input name="email" type="text" class="form-control" id="email" placeholder="Tu correo electrónico" required="">
+                  </fieldset>
+                </div>
+              <div class="col-md-12">
+                <fieldset>
+                  <textarea name="message" rows="6" class="form-control" id="message" placeholder="Comentario" required=""></textarea>
+                </fieldset>
+              </div>
+              <div class="col-md-12">
+                <fieldset>
+                  <button type="submit" id="form-submit" class="button">Enviar mensaje ahora</button>
+                </fieldset>
+              </div>
+            </div>
+          </form>
+        </div>
+        <div class="col-md-6">
+          <div id="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2372.3410867742764!2d-78.51088665336884!3d-0.22979472126715633!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91d5999ac80601d5%3A0xc5b7d1e86779be99!2sParque%20Cumand%C3%A1!5e0!3m2!1ses-419!2sec!4v1709303879190!5m2!1ses-419!2sec" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <p><i class="fa fa-copyright"></i> Realizado por Anthony Franco 01/03/2024
+          
+        </div>
+      </div>
+    </div>
+  </footer>
+
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <script src="assets/js/isotope.min.js"></script>
+    <script src="assets/js/owl-carousel.js"></script>
+    <script src="assets/js/lightbox.js"></script>
+    <script src="assets/js/tabs.js"></script>
+    <script src="assets/js/video.js"></script>
+    <script src="assets/js/slick-slider.js"></script>
+    <script src="assets/js/custom.js"></script>
+    <script>
+        $('.nav li:first').addClass('active');
+
+        var showSection = function showSection(section, isAnimate) {
+          var
+          direction = section.replace(/#/, ''),
+          reqSection = $('.section').filter('[data-section="' + direction + '"]'),
+          reqSectionPos = reqSection.offset().top - 0;
+
+          if (isAnimate) {
+            $('body, html').animate({
+              scrollTop: reqSectionPos },
+            800);
+          } else {
+            $('body, html').scrollTop(reqSectionPos);
+          }
+
+        };
+
+        var checkSection = function checkSection() {
+          $('.section').each(function () {
+            var
+            $this = $(this),
+            topEdge = $this.offset().top - 80,
+            bottomEdge = topEdge + $this.height(),
+            wScroll = $(window).scrollTop();
+            if (topEdge < wScroll && bottomEdge > wScroll) {
+              var
+              currentId = $this.data('section'),
+              reqLink = $('a').filter('[href*=\\#' + currentId + ']');
+              reqLink.closest('li').addClass('active').
+              siblings().removeClass('active');
+            }
+          });
+        };
+
+        $('.main-menu, .scroll-to-section').on('click', 'a', function (e) {
+          if($(e.target).hasClass('external')) {
+            return;
+          }
+          e.preventDefault();
+          $('#menu').removeClass('active');
+          showSection($(this).attr('href'), true);
+        });
+
+        $(window).scroll(function () {
+          checkSection();
+        });
+    </script>
+</body>
+</html>
